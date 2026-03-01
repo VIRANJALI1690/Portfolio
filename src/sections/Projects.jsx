@@ -8,51 +8,51 @@ const projects = [
         id: 1,
         title: "Weather App",
         category: "static",
-        image: "src/assets/weather.png",
+        image: "/images/weather.png",
         description: "This is a simple weather website that shows the current temperature and weather condition for any city you enter. It works fully on the browser and does not need any backend.",
         tech: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/VIRANJALI1690/Weather-App",
         live: "https://viranjali1690.github.io/Weather-App/",
-        video: "src/assets/weather.mp4" 
+        video: "/images/weather.mp4" 
     },
     {
         id: 2,
         title: "Chefcabin",
         category: "dynamic",
-        image: "src/assets/Chefcabin.png",
+        image: "/images/Chefcabin.png",
         description: "Developed a recipe platform that allows users to upload and manage dishes, mark favourites, view cooking details, and explore recipes created by others. Focused on a simple, user-friendly experience with smooth navigation, secure authentication, and real-time updates. ",
         tech: ["MongoDB", "Express.JS", "Node.JS","React.JS"],
         github: "https://example.com",
         live: "https://example.com",
-        video: "src/assets/Chefcabin.mp4"
+        video: "/images/Chefcabin.mp4"
     },
     {
         id: 3,
         title: "Portfolio",
         category: "dynamic",
-        image: "src/assets/portfolio.png",
+        image: "/images/portfolio.png",
         description: "My Personal Portfolio which show-case my coding skills, experiance, education, and my projects.",
         tech: ["React", "Tailwind CSS"],
-        github: "https://github.com",
-        live: "https://example.com",
-        video: ""
+        github: "https://github.com/VIRANJALI1690/Portfolio",
+        live: "https://viranjali-portfolio.vercel.app/",
+        video: "/images/portfolio.mp4"
     },
     {
         id: 4,
         title: "Siit Coderelic",
         category: "dynamic",
-        image: "src/assets/coderelic.png",
+        image: "/images/coderelic.png",
         description: "Coderelic is the container which stores all the final year porjects of SIIT college students.",
         tech: ["MongoDB", "Express.JS", "React.JS","Node.JS"],
-        github: "https://github.com",
+        github: "https://github.com/VIRANJALI1690/Siit-Coderelic",
         live: "https://example.com",
-        video: ""
+        video: "/images/coderelic.mp4"
     },
      {
         id: 5,
         title: "Drum Kit",
         category: "static",
-        image: "src/assets/Drum Kit.png",
+        image: "/images/Drum Kit.png",
         description: "Here, i have added some keys to press or you can simply click on specific key for enjoying different drum sounds.",
         tech: ["HTML5", "CSS3", "JavaScript"],
         github: "https://github.com/VIRANJALI1690/Drum-Kit-Game",

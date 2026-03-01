@@ -27,7 +27,7 @@ export default function Home() {
                     <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96">
                         <div className="absolute inset-0 bg-blue-500 rounded-full blur-3xl opacity-20 animate-pulse"></div>
                         <img
-                            src="src/assets/profile.jpg"
+                            src="/images/profile.jpg"
                             alt="Game Viranjali"
                             className="relative w-full h-full object-cover rounded-full border-4 border-white dark:border-gray-800 shadow-2xl z-10"
                         />
@@ -59,7 +59,7 @@ export default function Home() {
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-8">
                         <Button
-                            href="src/assets/Viranjali Game Resume.pdf"
+                            href="/resume.pdf"
                             download="Viranjali Game Resume.pdf"
                             variant="primary"
                             icon={Download}
